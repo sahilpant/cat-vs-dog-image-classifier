@@ -17,9 +17,7 @@ model = tf.keras.models.load_model("cat-vs-dog.model")
 predict_dir_path='testlite/'
 onlyfiles = [f for f in listdir(predict_dir_path) if os.path.isfile(os.path.join(predict_dir_path, f))]
 
-from keras.preprocessing import imagecls
-dog_counter = 0 
-cat_counter  = 0
+ 
 for file in onlyfiles:
     prediction = model.predict([prepare(predict_dir_path+file)])
     print(file + ':' + CATEGORIES[int(prediction[0][0])])
