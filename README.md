@@ -4,5 +4,6 @@ This is an Image calssifier between cats and dogs images using tensorflow and ke
 
 Data set used :-https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition/data
 
-<h3>Training Graph<h3><br>
-![](Training_graph_1.png)
+<h3>Training Graphs<h3><br>
+
+
