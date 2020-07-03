@@ -2,7 +2,7 @@
 
 This is an Image calssifier between cats and dogs images using tensorflow and keras 
 
-Data set used :-https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition/data
+Data set used :- https://www.microsoft.com/en-us/download/details.aspx?id=54765
 
 <h3>Training Graphs<h3><br>
 
